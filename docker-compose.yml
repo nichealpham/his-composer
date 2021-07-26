@@ -1,0 +1,124 @@
+version: "3.5"
+
+services:
+  mssql-db:
+    build:
+      context: ./mssql-db
+      args:
+        - SA_PASSWORD=OpenHis@Sql123#
+    image: nichealpham95/his:mssql-db-v1.0
+    ports:
+      - 2000:1433
+    networks:
+      - shared_network
+    restart: always
+    volumes:
+      - mssql_volume:/var/opt/mssql
+  
+  api-authen:
+    image: nichealpham95/his:api-authen-v1.0
+    ports:
+      - 2001:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./api.env
+    depends_on: 
+      - mssql-db
+
+  api-booking:
+    image: nichealpham95/his:api-booking-v1.0
+    ports:
+      - 2002:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./api.env
+    depends_on: 
+      - mssql-db
+
+  api-emr:
+    image: nichealpham95/his:api-emr-v1.0
+    ports:
+      - 2003:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./api.env
+    depends_on: 
+      - mssql-db
+
+  api-hr:
+    image: nichealpham95/his:api-hr-v1.0
+    ports:
+      - 2004:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./api.env
+    depends_on: 
+      - mssql-db
+
+  api-pas:
+    image: nichealpham95/his:api-pas-v1.0
+    ports:
+      - 2005:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./api.env
+    depends_on: 
+      - mssql-db
+
+  api-signal:
+    image: nichealpham95/his:api-signal-v1.0
+    ports:
+      - 2006:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./api.env
+    depends_on: 
+      - mssql-db
+
+  web-admin:
+    image: nichealpham95/his:web-admin-v1.0
+    ports:
+      - 3001:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./web.env
+
+  web-pas:
+    image: nichealpham95/his:web-pas-v1.0
+    ports:
+      - 3002:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./web.env
+
+  web-emr:
+    image: nichealpham95/his:web-emr-v1.0
+    ports:
+      - 3003:80
+    networks:
+      - shared_network
+    restart: always
+    env_file:
+      - ./web.env
+
+networks:
+  shared_network:
+
+volumes:
+  mssql_volume:
