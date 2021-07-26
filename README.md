@@ -6,10 +6,7 @@
   <span style="font-size:50px">HIS Composer</span>
   <br>
 </h1>
-
-<h2 align="center">Docker compose for running an Open version of <a href="https://www.who.int/healthinfo/statistics/toolkit_hss/EN_PDF_Toolkit_HSS_InformationSystems.pdf">HIS</a></br> (Health Information System)
-
-<p align="center" style="margin-top:10px">
+<p align="center" style="margin-top:20px">
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/csharp.svg"alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/frameworks/vue.svg" alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/html.svg" alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
@@ -18,8 +15,13 @@
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/services/gcp.svg" alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/tools/visualstudio_code.svg" alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
 </p>
+
+<h2 align="center">Docker compose for running an Open version of <a href="https://www.who.int/healthinfo/statistics/toolkit_hss/EN_PDF_Toolkit_HSS_InformationSystems.pdf">HIS</a></br> (Health Information System)
+<br/>
+<br/>
+
 <a href="https://www.youtube.com/watch?v=YXcC-purj9E">
-  <img src="https://lh3.google.com/u/0/d/1s3zdz8M2j7COcIIX2ZKFndmVgkGy1OzT=w3840-h2000-iv1" alt="Image Logo">
+  <img src="https://github.com/nichealpham/his-composer/blob/main/public/banner.jpg?raw=true" alt="Image Logo">
 </a>
 <p align="center">
   • <a href="https://www.youtube.com/watch?v=YXcC-purj9E">Video demonstration</a>
@@ -43,7 +45,7 @@
 # About
 This product is an IT platform dedicated for Hospital and Clinics management, consiting of 3 principal modules:
 
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/admin.png" vspace="0" width="360" />
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/admin.png?raw=true" vspace="0" width="360" />
 
 **✔️ 1. PAS - Patient Admission System**
 - Managing patient profiles
@@ -51,14 +53,13 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Admit patient into EMR system
 - Accepting payments, export invoices and payment receipts
 - High performance and thorough Reporting system
+<br/>
+<br/>
 
-<br/>
-<br/>
-<br/>
 
 ---
 <br/>
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/pas.png" vspace="0" width="360" />
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/pas.png?raw=true" vspace="0" width="360" />
 
 **✔️ 2. EMR - Electronic Medical Record**
 - Medical Forms for doctor to perform examination
@@ -68,10 +69,10 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Patient Visits and Discharge Summary management
 <br/>
 <br/>
-<br/>
 
 ---
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/emr.png" vspace="0" width="360" />
+<br/>
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/emr.png?raw=true" vspace="0" width="360" />
 
 **✔️ 3. Admin - Internal Organzation Management**
 - Management of hospital's Human resources
@@ -80,16 +81,19 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Doctor Roster and Scheduling System
 
 <br/>
-<br/>
-<br/>
 
 ---
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/ai.png" vspace="0" width="360" />
+<br/>
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/ai.png?raw=true" vspace="0" width="360" />
 
 **⚡ 4. A2DS - AI Assisted Diagnosis System (beta)**
 - Dry Eye detection algorithm
 - Fundus Lesion detection algorithm
 - Analysis and Flow management
+<br/>
+<br/>
+<br/>
+
 
 # How To Use
 
@@ -163,10 +167,10 @@ This software is made by these technologies:
 💪 We are looking for business collaboration to extend the impact of this product and to validate its functionalities for international standards. Please contact us for future opportunities:
 
 <h3>⭐ Contact Information</h3>
-- Name:  NICHEAL PHAM<br/>
-- Technical Solution Architect at A2DS, Inc. <br/>
-- Email: nguyen@a2ds.io<br/>
-- Linkedin: https://www.linkedin.com/in/nichealpham/<br/>
+Name:  NICHEAL PHAM<br/>
+Technical Solution Architect at A2DS, Inc. <br/>
+Email: nguyen@a2ds.io<br/>
+Linkedin: https://www.linkedin.com/in/nichealpham/<br/>
 
 ****
 
