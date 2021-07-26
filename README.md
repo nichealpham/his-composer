@@ -45,7 +45,7 @@
 # About
 This product is an IT platform dedicated for Hospital and Clinics management, consiting of 3 principal modules:
 
-<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/admin.png?raw=true" vspace="0" width="360" />
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/admin.png?raw=true" vspace="0" width="420" />
 
 **✔️ 1. PAS - Patient Admission System**
 - Managing patient profiles
@@ -59,7 +59,7 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 
 ---
 <br/>
-<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/pas.png?raw=true" vspace="0" width="360" />
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/pas.png?raw=true" vspace="0" width="420" />
 
 **✔️ 2. EMR - Electronic Medical Record**
 - Medical Forms for doctor to perform examination
@@ -72,7 +72,7 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 
 ---
 <br/>
-<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/emr.png?raw=true" vspace="0" width="360" />
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/emr.png?raw=true" vspace="0" width="420" />
 
 **✔️ 3. Admin - Internal Organzation Management**
 - Management of hospital's Human resources
@@ -84,7 +84,7 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 
 ---
 <br/>
-<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/ai.png?raw=true" vspace="0" width="360" />
+<img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/ai.png?raw=true" vspace="0" width="420" />
 
 **⚡ 4. A2DS - AI Assisted Diagnosis System (beta)**
 - Dry Eye detection algorithm
