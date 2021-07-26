@@ -1,9 +1,13 @@
-
 <h1 align="center">
+<a href="https://www.youtube.com/watch?v=YXcC-purj9E">
+  <img src="https://image.freepik.com/free-vector/medical-worker-with-clipboard-waiting-patients_74855-7617.jpg" alt="Image Logo">
+</a>
+  <br>
   <br>
   <a href="https://a2ds.io/"><img src="https://uploads-ssl.webflow.com/5e16e935ef00e719b76c570a/5e17f43acf33867cdb70d545_logo.png" alt="Markdownify" width="200"></a>
   <br>
   <span style="font-size:50px">HIS Composer</span>
+  <br>
   <br>
 </h1>
 <p align="center" style="margin-top:20px">
@@ -20,9 +24,6 @@
 <br/>
 <br/>
 
-<a href="https://www.youtube.com/watch?v=YXcC-purj9E">
-  <img src="https://github.com/nichealpham/his-composer/blob/main/public/banner.jpg?raw=true" alt="Image Logo">
-</a>
 <p align="center">
   • <a href="https://www.youtube.com/watch?v=YXcC-purj9E">Video demonstration</a>
 </p>
