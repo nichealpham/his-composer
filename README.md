@@ -43,9 +43,9 @@
 # About
 This product is an IT platform dedicated for Hospital and Clinics management, consiting of 3 principal modules:
 
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/admin.png" vspace="0" width="380" />
+<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/admin.png" vspace="0" width="360" />
 
-**1. PAS - Patient Admission System**
+**✔️ 1. PAS - Patient Admission System**
 - Managing patient profiles
 - Booking appointment
 - Admit patient into EMR system
@@ -58,9 +58,9 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 
 ---
 <br/>
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/pas.png" vspace="0" width="380" />
+<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/pas.png" vspace="0" width="360" />
 
-**2. EMR - Electronic Medical Record**
+**✔️ 2. EMR - Electronic Medical Record**
 - Medical Forms for doctor to perform examination
 - Data collection and Episode Manegemnt for each patients visits
 - Scalable Archetype design to extend to different medical fields
@@ -71,8 +71,9 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 <br/>
 
 ---
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/emr.png" vspace="0" width="380" />
-**3. Admin - Internal Organzation Management**
+<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/emr.png" vspace="0" width="360" />
+
+**✔️ 3. Admin - Internal Organzation Management**
 - Management of hospital's Human resources
 - Management of Branding and satlite Clinics
 - Complete customization of available Medical Services
@@ -83,10 +84,9 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 <br/>
 
 ---
-<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/ai.png" vspace="0" width="380" />
-The 4th module is in beta version, which provide AI Disgnosis functionalities for EMR
+<img align="right" src="https://github.com/nichealpham/his-composer/raw/master/public/ai.png" vspace="0" width="360" />
 
-**4. A2DS - AI Assisted Diagnosis System**
+**⚡ 4. A2DS - AI Assisted Diagnosis System (beta)**
 - Dry Eye detection algorithm
 - Fundus Lesion detection algorithm
 - Analysis and Flow management
