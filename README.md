@@ -167,9 +167,9 @@ This software is made by these technologies:
 💪 We are looking for business collaboration to extend the impact of this product and to validate its functionalities for international standards. Please contact us for any opportunities 🔥
 
 <h3>⭐ Contact Information</h3>
-Name:  NICHEAL PHAM<br/>
+Name:  Nicheal Pham<br/>
 Technical Solution Architect at A2DS, Inc. <br/>
-Email: nguyen@a2ds.io<br/>
+Email: nichealpham@gmail.com<br/>
 Linkedin: https://www.linkedin.com/in/nichealpham/<br/>
 
 ****
