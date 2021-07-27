@@ -171,6 +171,7 @@ Name:  Nicheal Pham<br/>
 Technical Solution Architect at A2DS, Inc. <br/>
 Email: nichealpham@gmail.com<br/>
 Linkedin: https://www.linkedin.com/in/nichealpham/<br/>
+Phone: +84-914-118-896
 
 ****
 
