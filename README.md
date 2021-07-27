@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://gramme.io/cassand"><img src="https://nichealpham.github.io/Cassandra-project/public/images/startup.png" alt="Markdownify" width="160"></a>
   <br>
-  <span style="font-size:90px">HIS Composer</span>
+  <span style="font-size:120px">HIS Composer</span>
   <br>
   <br>
   <a href="https://www.youtube.com/watch?v=YXcC-purj9E">
