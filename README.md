@@ -97,7 +97,7 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 
 # How To Use
 
-## 1. Run using docker compose
+## 1. Run using docker compose 🌈
 A complete, Open version of the platform is ready to use with the following commands:
 
 ```bash
@@ -120,7 +120,7 @@ Default Root account:
 * Username: `root`
 * Password: `Admin@123#`
 
-## 2. Modify the Default SQL Password
+## 2. Modify the Default SQL Password ⚡️
 
 You can update the default MSSQL Password by changing the following sections:
 1. In `docker-compose.yml` file, update line `- SA_PASSWORD=[Your new password...]`
@@ -131,7 +131,7 @@ Then rebuild and run the system:
 docker-compose up --build -d
 ```
 
-## 3. Hosting the frontend via a reverse proxy
+## 3. Hosting the frontend via a reverse proxy ⭐
 
 We highly recomdend you should be familiar with how to setup a reverse proxy for the application, for example with `nginx`.
 
@@ -164,7 +164,7 @@ This software is made by these technologies:
 
 # Support
 
-💪 We are looking for business collaboration to extend the impact of this product and to validate its functionalities for international standards. Please contact us for future opportunities:
+💪 We are looking for business collaboration to extend the impact of this product and to validate its functionalities for international standards. Please contact us for any opportunities 🔥
 
 <h3>⭐ Contact Information</h3>
 Name:  NICHEAL PHAM<br/>
