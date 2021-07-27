@@ -61,7 +61,9 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Accepting payments, export invoices and payment receipts
 - High performance and thorough Reporting system
 <br/>
+
 ---
+
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/emr.png?raw=true" vspace="0" width="460" />
 
 **✔️ 2. EMR - Electronic Medical Record**
@@ -71,7 +73,9 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Medicine and Medication management system
 - Patient Visits and Discharge Summary management
 <br/>
+
 ---
+
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/admin.png?raw=true" vspace="0" width="460" />
 
 **✔️ 3. Admin - Internal Organzation Management**
@@ -80,7 +84,9 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Complete customization of available Medical Services
 - Doctor Roster and Scheduling System
 <br/>
+
 ---
+
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/ai.png?raw=true" vspace="0" width="460" />
 
 **⚡ 4. A2DS - AI Assisted Diagnosis System (beta)**
