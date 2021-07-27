@@ -1,14 +1,15 @@
 <h1 align="center">
-  <a href="https://a2ds.io/"><img src="https://uploads-ssl.webflow.com/5e16e935ef00e719b76c570a/5e17f43acf33867cdb70d545_logo.png" alt="Markdownify" width="200"></a>
+  <a href="https://gramme.io/cassand"><img src="https://nichealpham.github.io/Cassandra-project/public/images/startup.png" alt="Markdownify" width="160"></a>
   <br>
   <span style="font-size:90px">HIS Composer</span>
   <br>
   <br>
   <a href="https://www.youtube.com/watch?v=YXcC-purj9E">
   <img src="https://github.com/nichealpham/his-composer/blob/main/public/banner.jpg?raw=true" alt="Image Logo">
-</a>
+  </a>
   <br>
 </h1>
+
 <p align="center" style="margin-top:20px">
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/csharp.svg"alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
   <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/frameworks/vue.svg" alt="Twitter" style="vertical-align:top; margin:4px" height="25px">
@@ -24,14 +25,20 @@
 <br/>
 
 <p align="center">
-  • <a href="https://www.youtube.com/watch?v=YXcC-purj9E">Video demonstration</a>
+  Quick Demo Links:
+  • <a href="http://118.69.43.145:1012/">EMR</a>
+  • <a href="http://118.69.43.145:1011/">PAS</a>
+  • <a href="http://118.69.43.145:1010/">ADMIN</a>
 </p>
 <p align="center">
-  • <a href="#key-features">Key Features</a> •
+  ( Account: test |
+  Password: 123456 )
+</p>
+<p align="center">
+  • <a href="#modules">Modules</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
+  <a href="#support">Support</a> •
   <a href="#license">License</a>
 </p>
 
