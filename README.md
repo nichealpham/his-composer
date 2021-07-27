@@ -72,7 +72,6 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 - Scalable Archetype design to extend to different medical fields
 - Medicine and Medication management system
 - Patient Visits and Discharge Summary management
-<br/>
 
 ---
 
