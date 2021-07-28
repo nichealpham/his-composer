@@ -4,9 +4,13 @@
   <span style="font-size:120px">HIS Composer</span>
   <br>
   <br>
-  <a href="https://www.youtube.com/watch?v=YXcC-purj9E">
+  <a href="https://www.youtube.com/watch?v=DjqP67_SnsY&t=335s">
   <img src="https://github.com/nichealpham/his-composer/blob/main/public/banner.jpg?raw=true" alt="Image Logo">
   </a>
+  <br/>
+  <br/>
+  🔥 <a href="https://www.youtube.com/watch?v=DjqP67_SnsY&t=335s">Video Introduction</a> 🔥
+  </p>
   <br>
 </h1>
 
