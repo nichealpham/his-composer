@@ -48,29 +48,32 @@
 
 # Modules
 
-* ✔️ Patient Admission System (PAS) 
-* ✔️ Eletronic Medical Record (EMR)
-* ✔️ Human Resource Management (Admin)
-* ⚡ AI Analysis for Fundus and Dry Eye (Beta)
+- ✔️ Patient Admission System (PAS)
+- ✔️ Eletronic Medical Record (EMR)
+- ✔️ Human Resource Management (Admin)
+- ⚡ AI Analysis for Fundus and Dry Eye (Beta)
 
 # About
+
 This product is an IT platform dedicated for Hospital and Clinics management, consiting of 3 principal modules:
 
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/pas.png?raw=true" vspace="0" width="460" />
 
 **✔️ 1. PAS - Patient Admission System**
+
 - Managing patient profiles
 - Booking appointment
 - Admit patient into EMR system
 - Accepting payments, export invoices and payment receipts
 - High performance and thorough Reporting system
-<br/>
+  <br/>
 
 ---
 
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/emr.png?raw=true" vspace="0" width="460" />
 
 **✔️ 2. EMR - Electronic Medical Record**
+
 - Medical Forms for doctor to perform examination
 - Data collection and Episode Manegemnt for each patients visits
 - Scalable Archetype design to extend to different medical fields
@@ -82,27 +85,30 @@ This product is an IT platform dedicated for Hospital and Clinics management, co
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/admin.png?raw=true" vspace="0" width="460" />
 
 **✔️ 3. Admin - Internal Organzation Management**
+
 - Management of hospital's Human resources
 - Management of Branding and satlite Clinics
 - Complete customization of available Medical Services
 - Doctor Roster and Scheduling System
-<br/>
+  <br/>
 
 ---
 
 <img align="right" src="https://github.com/nichealpham/his-composer/blob/main/public/ai.png?raw=true" vspace="0" width="460" />
 
 **⚡ 4. A2DS - AI Assisted Diagnosis System (beta)**
+
 - Dry Eye detection algorithm
 - Fundus Lesion detection algorithm
 - Analysis and Flow management
-<br/>
-<br/>
+  <br/>
+  <br/>
 
 # How To Use
 
-## 1. Run using docker compose 🌈
-A complete, Open version of the platform is ready to use with the following commands:
+## Run using docker compose 🌈
+
+A complete version of the platform is ready to use with docker compose:
 
 ```bash
 # Clone this repository
@@ -110,52 +116,43 @@ $ git clone https://github.com/nichealpham/his-composer.git
 
 # Go into the repository
 $ cd his-composer
+```
 
-# Run the app
+### Check the ip adress of your system
+
+```bash
+$ ipconfig
+$ ifconfig
+```
+
+### Then, replace the IP address in the appropriate place inside .env file
+
+```bash
+SA_PASSWORD=Admin@123#
+HIS_APP_MSSQL_DB_HOST=172.25.229.39
+HIS_APP_MSSQL_DB_USER=sa
+HIS_APP_MSSQL_DB_PASSWORD=Admin@123#
+HIS_APP_ACCESS_TOKEN_ENCRYPTION_KEY=sandrasoft@2021#
+VUE_APP_API=http://172.25.229.39:2001/api
+VUE_APP_AI_FUNCTIONS=http://172.25.229.39:2002/graphql
+```
+
+## Run the app
+
+```bash
 $ docker-compose up -d
 ```
 
 Then navigate to the following URL:
+
 1. [http://localhost:3001](http://localhost:3001): Admin
 2. [http://localhost:3002](http://localhost:3002): PAS
 3. [http://localhost:3003](http://localhost:3003): EMR
 
 Default Root account:
-* Username: `root`
-* Password: `Admin@123#`
 
-## 2. Modify the Default SQL Password ⚡️
-
-You can update the default MSSQL Password by changing the following sections:
-1. In `docker-compose.yml` file, update line `- SA_PASSWORD=[Your new password...]`
-2. In `api.env` file, update line `HIS_APP_MSSQL_DB_PASSWORD=[Your new password...]`
-
-Then rebuild and run the system:
-```
-docker-compose up --build -d
-```
-
-## 3. Hosting the frontend via a reverse proxy ⭐
-
-We highly recomdend you should be familiar with how to setup a reverse proxy for the application, for example with `nginx`.
-
-For fontend website to successfully call Backend APIs, modify the following URLs inside `web.env` file:
-```
-HIS_APP_API_AUTHEN=http://localhost:2001/api
-HIS_APP_API_BOOKING=http://localhost:2002/api
-HIS_APP_API_EMR=http://localhost:2003/api
-HIS_APP_API_HR=http://localhost:2004/api
-HIS_APP_API_PAS=http://localhost:2005/api
-HIS_APP_API_SIGNAL=http://localhost:2006/signal
-HIS_APP_API_FUNCTION=http://localhost:2999/graphql
-HIS_APP_API_ORTHANC=http://localhost:8042
-```
-
-Then rebuild and run the system:
-
-```
-docker-compose up --build -d
-```
+- Username: `root`
+- Password: `Admin@123#`
 
 # Credits
 
@@ -177,12 +174,12 @@ Email: nichealpham@gmail.com<br/>
 Linkedin: https://www.linkedin.com/in/nichealpham/<br/>
 Phone: +84-914-118-896
 
-****
+---
 
 # License
 
 MIT
 
 ---
-With 💙 from [@Nicheal Pham](https://github.com/nichealpham)
 
+With 💙 from [@Nicheal Pham](https://github.com/nichealpham)

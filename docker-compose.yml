@@ -2,15 +2,17 @@ version: "3.5"
 
 services:
   db:
-    image: nichealpham95/his:mssql-db-v1.0
+    image: nichealpham95/his-v2:his-db
+    ports:
+      - 1433:1433
     networks:
       - shared_network
     restart: always
     volumes:
       - mssql_volume:/var/opt/mssql
-    environment: 
-      - SA_PASSWORD=OpenHis@Sql123#
-  
+    env_file:
+      - ./.env
+
   api:
     image: nichealpham95/his-v2:his-api
     ports:
@@ -18,13 +20,25 @@ services:
     networks:
       - shared_network
     restart: always
-    depends_on: 
+    depends_on:
       - db
-    environment: 
-      - HIS_APP_MSSQL_DB_HOST=db
-      - HIS_APP_MSSQL_DB_USER=sa
-      - HIS_APP_MSSQL_DB_PASSWORD=OpenHis@Sql123#
-      - HIS_APP_ACCESS_TOKEN_ENCRYPTION_KEY=sandrasoft@2021#
+    env_file:
+      - ./.env
+
+  ai:
+    image: nichealpham95/his-v2:his-ai
+    ports:
+      - 2002:80
+    networks:
+      - shared_network
+    restart: always
+    depends_on:
+      - db
+      - api
+    volumes:
+      - ai_volume:/app/public
+    env_file:
+      - ./.env
 
   hrm:
     image: nichealpham95/his-v2:his-hrm
@@ -33,10 +47,10 @@ services:
     networks:
       - shared_network
     restart: always
-    depends_on: 
+    depends_on:
       - api
-    environment: 
-      - VUE_APP_API=http://localhost:2001/api
+    env_file:
+      - ./.env
 
   pas:
     image: nichealpham95/his-v2:his-pas
@@ -45,10 +59,10 @@ services:
     networks:
       - shared_network
     restart: always
-    depends_on: 
+    depends_on:
       - api
-    environment: 
-      - VUE_APP_API=http://localhost:2001/api
+    env_file:
+      - ./.env
 
   emr:
     image: nichealpham95/his-v2:his-emr
@@ -57,13 +71,14 @@ services:
     networks:
       - shared_network
     restart: always
-    depends_on: 
+    depends_on:
       - api
-    environment: 
-      - VUE_APP_API=http://localhost:2001/api
+    env_file:
+      - ./.env
 
 networks:
   shared_network:
 
 volumes:
   mssql_volume:
+  ai_volume:
