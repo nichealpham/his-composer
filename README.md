@@ -183,3 +183,8 @@ MIT
 ---
 
 With 💙 from [@Nicheal Pham](https://github.com/nichealpham)
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
